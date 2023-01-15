@@ -37,6 +37,8 @@ cellules T après projection sur 3 temps.
 - Partie 3 : Construction d’un modèle de classification en 3 classes basé sur la morphologie des
 cellules T à un moment t.
 - Partie 4 : Adaptation des différents modèles sur un film dans un contexte tumoral.
+
+
 Ce projet a été encadré par Philippe Bousso, directeur du département d’Immunologie de
 l’Institut Pasteur, et Hélène Moreau, chargée de recherche à l’Institut Curie.
 
