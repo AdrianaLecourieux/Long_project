@@ -42,4 +42,4 @@ l’Institut Pasteur, et Hélène Moreau, chargée de recherche à l’Institut 
 
 Les macros réalisées sur ImageJ sont présentes dans le répertoire "fiji_macro". Les modèles sont dans le notebook "long_project".
 
-Les différents tests avec la bibliothèque SHAP sont dans le notebook
+Les différents tests avec la bibliothèque SHAP sont dans le notebook "SHAP_proportion_black_white_pixel.ipynb"
