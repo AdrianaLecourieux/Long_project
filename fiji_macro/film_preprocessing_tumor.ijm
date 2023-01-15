@@ -19,17 +19,14 @@ setBatchMode(true);
 
 //------------ Film pre-processing ----------------
 
-//Select channel 2
-run("Duplicate...", "duplicate channels=2");
+// Set threshold
+setThreshold(2104, 65535, "raw");
 
 //Smooth the film
 run("Smooth", "stack");
 
-//Perform Z projection on 3 layouts
-run("Z Project...", "stop=3 projection=[Max Intensity] all");
-
 //Make binary
-run("Make Binary", "method=Default background=Default calculate");
+run("Make Binary", "method=MaxEntropy background=Dark calculate");
 
 //Remove small particles
 run("Erode", "stack");

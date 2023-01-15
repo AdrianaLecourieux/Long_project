@@ -12,7 +12,7 @@ title_without_extension = substring(title, 0, dotIndex);
 path = getDirectory("image");
 
 //Create a new folder
-folder = path + File.separator + title_without_extension + "_crop"
+folder = path + File.separator + title_without_extension + "_find_edges"
 File.makeDirectory(folder);
 
 //Doesn't open images
@@ -45,6 +45,7 @@ for (i=0; i<coord;i++){
   	newImage("Untitled", "8-bit black", 100, 100, 1);
   	makeRectangle(0,0,100,100);
   	run("Paste");
+  	run("Find Edges");
     title2 = getTitle();
     
 //------------ Save images ----------------
