@@ -35,3 +35,5 @@ cellules T à un moment t.
 - Partie 4 : Adaptation des différents modèles sur un film dans un contexte tumoral.
 Ce projet a été encadré par Philippe Bousso, directeur du département d’Immunologie de
 l’Institut Pasteur, et Hélène Moreau, chargée de recherche à l’Institut Curie.
+
+Les macros réalisées sur ImageJ sont présentes dans le fichier 
