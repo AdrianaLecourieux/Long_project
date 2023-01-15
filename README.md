@@ -40,6 +40,6 @@ cellules T à un moment t.
 Ce projet a été encadré par Philippe Bousso, directeur du département d’Immunologie de
 l’Institut Pasteur, et Hélène Moreau, chargée de recherche à l’Institut Curie.
 
-Les macros réalisées sur ImageJ sont présentes dans le répertoire "fiji_macro". Les modèles sont dans le notebook "long_project".
+Les macros réalisées sur ImageJ sont présentes dans le répertoire "fiji_macro". Les modèles sont dans le notebook "Long__project.ipynb".
 
 Les différents tests avec la bibliothèque SHAP sont dans le notebook "SHAP_proportion_black_white_pixel.ipynb"
