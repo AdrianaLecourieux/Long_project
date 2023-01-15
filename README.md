@@ -10,6 +10,8 @@ de la reconnaissance de l’antigène. Cela se traduit par une décélération o
 changement de morphologie de la cellule T.
 le lymphocyte T est mobile. En rouge, reconnaissance de l’antigène par la cellule T induisant son
 changement de morphologie. En bleu, cellule infectée/tumorale.
+
+
 Pour prédire le devenir de la pathologie, il est essentiel d'identifier le type cellulaire présent au
 niveau de la cellule infectée/tumorale et de connaître leur activité (spécifique ou non spécifique). Ainsi,
 plusieurs questions biologiques se posent. Quel est le nombre ou la densité de lymphocytes T spécifiques
@@ -18,6 +20,8 @@ rôle anti-tumoral ? Les approches existantes permettent difficilement de discri
 spécifiques des non spécifiques sur une coupe de tumeur.
 L’objectif de ce projet est d’évaluer dans quelle mesure il est possible de prédire la spécificité
 antigénique d’une cellule T à partir de sa morphologie.
+
+
 Différents films réalisés in vivo par microscopie biphotonique de cellules T ne reconnaissant
 pas l’antigène ou en train de reconnaître l’antigène ont permis la construction de modèles de prédiction.
 La première partie de ce travail correspond au traitement des films collectés par l’utilisation d’un outil
@@ -36,4 +40,6 @@ cellules T à un moment t.
 Ce projet a été encadré par Philippe Bousso, directeur du département d’Immunologie de
 l’Institut Pasteur, et Hélène Moreau, chargée de recherche à l’Institut Curie.
 
-Les macros réalisées sur ImageJ sont présentes dans le fichier 
+Les macros réalisées sur ImageJ sont présentes dans le répertoire "fiji_macro". Les modèles sont dans le notebook "long_project".
+
+Les différents tests avec la bibliothèque SHAP sont dans le notebook
